@@ -1,0 +1,43 @@
+title: Slate+Simple Jekyll Theme
+description: Your site description...
+copyright: Your Name
+url: ''
+future: false
+highlighter: rouge
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: '/:categories/:year-:month-:day/:title.html'
+paginate: 5
+include:
+  - .htaccess
+exclude:
+  - '*.less'
+  - '*.sublime-project'
+  - '*.sublime-workspace'
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
+baseurl: ''
